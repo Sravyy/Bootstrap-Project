@@ -41,8 +41,35 @@ h1{
   font-size: 90%;
   font-weight: bold;
 }
+.main-nav li a:hover{
+  color:#e0a021;
+  border-bottom: 1px solid ;
+  transition: all 0.3s ease-in;
+  padding-bottom: 10px;
+
+}
 .logo img{
   height: 100px;
   float: left;
   margin-top: 30px;
+}
+.btn{
+  border: 1px solid;
+  padding: 10px 10px;
+  color:#e0a021;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.button-main{
+  margin-top: 30px;
+}
+.btn-half{
+ background-color: #ce8a04;
+ color: white;
+}
+.btn-full:hover{
+  background-color: #ce8a04;
+  color: white;
+transition:all 0.4s ease-in;
 }
