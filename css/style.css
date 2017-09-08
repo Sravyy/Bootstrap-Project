@@ -73,3 +73,31 @@ h1{
   color: white;
 transition:all 0.4s ease-in;
 }
+.copy{
+  width: 75%;
+  margin-left: 15%;
+}
+.features h3{
+  margin-top: 60px;
+
+}
+h3:after{
+  width: 100px;
+  height: 2px;
+  background-color: #ce8a04;
+  display: block;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.arrange{
+  text-align: justify;
+}
+
+.features i{
+  font-size: 40px;
+  color: #ce8a04;
+  margin-left: 25%;
+  margin-top: 5%;
+}
